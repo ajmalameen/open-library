@@ -1,0 +1,117 @@
+/* @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=DM+Sans&display=swap");
+body {
+  background: #f8f8f8;
+  padding: 0;
+  margin: 0;
+  font-family: DM Sans;
+}
+
+.nav {
+  display: flex;
+  padding: 2rem 0.8rem;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .select {
+  position: relative;
+}
+.nav .select a {
+  padding: 8px 16px;
+  width: 150px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.05);
+  color: #1E0E62;
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  transition: all 0.25s;
+}
+
+.nav .select .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  padding: 8px 16px;
+  background: white;
+  margin-top: 10px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.05) -3px 3px 6px, rgba(0, 0, 0, 0.055) -20px 20px 55px, rgba(255, 255, 255, 0.6) -2px 2px 2px 1px inset, rgba(255, 255, 255, 0.4) 2px 2px 3px 0px inset, rgba(0, 0, 0, 0.05) 1px 1px 2px 0px inset;
+  display: none;
+  transition: 0.25s opacity;
+}
+.nav .select .dropdown-menu.active {
+  display: block;
+}
+.nav .select .dropdown-menu div {
+  margin-bottom: 1em;
+  font-weight: 600;
+  color: #1E0E62;
+  cursor: pointer;
+  padding: 16px;
+  border-bottom: 2px solid #1e0e6269;
+}
+.nav .logo {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  position: relative;
+}
+.nav .logo svg {
+  height: 80px;
+  width: 80px;
+}
+.nav .login {
+  position: relative;
+}
+.nav .login button {
+  display: inline-block;
+  height: 40px;
+  padding: 0 15px;
+  user-select: none;
+  background: none;
+  border: 2px solid #EBEAED;
+  line-height: 36px;
+  color: #1E0E62;
+  font-size: 16px;
+  vertical-align: top;
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: center;
+  background: transparent;
+  transition: 0.25s all;
+  cursor: pointer;
+}
+.nav .login button:focus {
+  outline: none;
+}
+.nav .login button:hover {
+  border-color: #1E0E62;
+} */
+
+
+.dropdown-toggle::after {
+  display: none;
+}
+.text-decoration-none{
+text-decoration: none!important;
+}
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width { width: 2rem;}
+
+a{
+  text-decoration:none;
+  color:black;
+}
